@@ -1,0 +1,16 @@
+div.video {
+    position: relative;
+    margin: 0px -2px 30px -2px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 3%;
+    left: 15.5%;
+    width: 70%;
+    height: 70%;
+    border: 2px solid rgba(207, 207, 207, 0.281);
+    box-shadow: 1px 1px 5px lightgrey;
+}
