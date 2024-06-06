@@ -12,15 +12,15 @@ body {
 
 header {
     background-color: rgba(211, 211, 211, 0.171);
-    min-height: 97px;
-    display: block;
+    height: 48px;
 }
 
 header img {
+    margin-right: 50px;
     margin-left: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 20%;
+    padding-bottom: 10px;
+    width: 5%;
 }
 
 header a {
@@ -40,6 +40,11 @@ nav ul {
 nav a:hover {
     color: red;
     transition-duration: 0.3s;
+}
+
+nav li {
+    padding-right: 100px;
+    padding-top: 5px;
 }
 
 header nav a#ml:enabled {
