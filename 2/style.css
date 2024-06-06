@@ -51,6 +51,8 @@ nav a:hover {
 nav li {
     padding-right: 60px;
     padding-top: 5px;
+    font-family: var(--fonte-custom);
+    font-size: 1.1em;
 }
 
 main {
