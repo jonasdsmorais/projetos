@@ -58,8 +58,10 @@ main img {
 }
 
 main img:hover {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 5px solid lightgrey;
     transition-duration: 0.5s;
+    content: '';
 }
 
 div.video {
