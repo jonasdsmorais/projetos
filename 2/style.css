@@ -69,8 +69,9 @@ main h1 {
 }
 
 main img {
-    width: 450px;
+    width: 400px;
     margin-left: 10px;
+    display: inline-block;
 }
 
 main img:hover {
@@ -79,4 +80,8 @@ main img:hover {
     transition-duration: 0.5s;
     transition-delay: 0.5ms;
     box-shadow: 1px 1px 1px lightgrey;
+}
+
+main div.video {
+    
 }
