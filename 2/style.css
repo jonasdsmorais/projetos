@@ -55,11 +55,6 @@ nav li {
     font-size: 1.1em;
 }
 
-main {
-    min-width: 300px;
-    max-width: 1000px;
-}
-
 main h1 {
     color: white;
     padding: 10px;
@@ -69,8 +64,9 @@ main h1 {
 }
 
 main img {
-    width: 400px;
-    margin-left: 10px;
+    width: 455px;
+    margin-left: 11px;
+    margin-bottom: 8px;
     display: inline-block;
 }
 
@@ -82,6 +78,11 @@ main img:hover {
     box-shadow: 1px 1px 1px lightgrey;
 }
 
-main div.video {
-    
+footer {
+    padding-top: 13%;
+    font-family: var(--fonte-custom);
+    font-size: 15px;
+    bottom: 0;
+    text-align: center;
+    color: white;
 }
