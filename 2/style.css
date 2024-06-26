@@ -23,7 +23,7 @@ header {
 }
 
 header img {
-    padding-right: 60px;
+    padding-right: 45px;
     margin-left: 20px;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -33,10 +33,9 @@ header img {
 header a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 8px;
     font-weight: bold;
     display: block;
-    margin-right: 10px;
 }
 
 nav ul {
@@ -50,7 +49,7 @@ nav a:hover {
 }
 
 nav li {
-    padding-right: 60px;
+    padding-right: 52px;
     padding-top: 5px;
     font-family: var(--fonte-custom);
     font-size: 1.1em;
@@ -74,8 +73,10 @@ main img {
 main img:hover {
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 2px solid red;
-    transition-duration: 0.5s;
-    transition-delay: 0.5ms;
+    width: 24%;
+    height: 24%;
+    transition-duration: 5s;
+    transition-delay: 0.3ms;
     box-shadow: 1px 1px 1px red;
 }
 
