@@ -14,6 +14,7 @@ body {
 * {
     padding: 0px;
     margin: 0px;
+    color: white;
 }
 
 header {
@@ -72,10 +73,10 @@ main img {
 
 main img:hover {
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: 2px solid lightgrey;
+    border: 2px solid red;
     transition-duration: 0.5s;
     transition-delay: 0.5ms;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px red;
 }
 
 footer {
