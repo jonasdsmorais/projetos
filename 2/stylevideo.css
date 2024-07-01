@@ -5,9 +5,9 @@ div.video {
 
 div.video > iframe {
     position: absolute;
-    top: 12%;
-    left: 22%;
+    top: 10.5%;
+    left: 19.8%;
     width: 62%;
     height: 62%;
-    box-shadow: 1px 1px 0.5px rgba(253, 0, 0, 0.342);
+    box-shadow: 1px 1px 10px rgba(253, 0, 0, 0.479);
 }
