@@ -14,7 +14,7 @@ body {
 * {
     padding: 0px;
     margin: 0px;
-    color: white;
+    user-select: none;
 }
 
 header {
@@ -85,5 +85,6 @@ footer {
     font-size: 15px;
     bottom: 0;
     text-align: center;
-    color: white;
+    color: rgb(189, 199, 209);
+    user-select: none;
 }
