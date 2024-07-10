@@ -10,6 +10,11 @@
     src: url(fonts/Varelmo.otf) format(opentype);
 }
 
+@font-face {
+    font-family: 'Archivo';
+    src: url(fonts/ArchivoBlack-Regular.ttf) format(truetype);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,18 +23,26 @@
 :root {
     --minecraft-font: 'Minecraft';
     --tech-font: 'Tech';
+    --menu-font: 'Archivo'
 }
 
 body {
    font-family: Arial, Helvetica, sans-serif;
-   background-image: url(images/wall.png);
-   background-size: 1366px 768px;
+   background-image: url(images/802f3028e80f10665d23831a6dac2268.jpg);
+   background-size: 1920px 1080px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 header img {
-    width: 6%;
+    width: 4.5%;
     padding-right: 30px;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 header a {
@@ -39,14 +52,14 @@ header a {
 
 nav ul {
     list-style-type: none;
-    display: flex;
 }
 
 nav li {
+    display: inline-block;
     padding-right: 85px;
-    padding-top: 23px;
-    font-size: 1.1em;
-    font-family: var(--default-font);
+    padding-top: 2px;
+    font-size: 1em;
+    font-family: var(--menu-font);
     font-weight: bolder;
 }
 
@@ -56,15 +69,34 @@ nav a:hover {
     transition-duration: 0.5s;
     transition-delay: 0.3ms;
     box-shadow: 0px 0px 100px rgba(183, 0, 255, 0.603);
+    background-color: rgba(211, 211, 211, 0.219);
 }
 
 h1 {
-    padding-top: 100px;
+    padding-top: 40px;
     padding-left: 50px;
-    color: white;
+    color: rgb(188, 0, 226);
     font-family: var(--minecraft-font);
     font-weight: lighter;
-    font-size: 2.7em;
+    font-size: 3.5em;
+}
+
+p#impact {
+    font-family: var(--minecraft-font);
+    font-weight: bold;
+    padding-left: 50px;
+    color: rgb(212, 0, 255);
+    font-size: 5em;
+}
+
+h3 {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button {
@@ -92,14 +124,14 @@ button.downloadapple {
 }
 
 button img:hover {
-    box-shadow: 0px 0px 50px purple;
+    box-shadow: 0px 0px 50px rgb(197, 0, 197);
     transition-duration: 0.5s;
 }
 
 footer {
-    color: white;
+    color: rgba(255, 255, 255, 0.411);
     text-align: center;
-    margin-top: 250px;
+    margin-top: 40px;
     background-color: rgba(151, 147, 147, 0);
 }
 
