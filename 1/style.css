@@ -38,6 +38,10 @@ header {
     align-items: center;
 }
 
+header img {
+    user-select: none;
+}
+
 header img#logo {
     width: 4.5%;
     padding-right: 30px;
@@ -49,6 +53,7 @@ header img#line {
     width: 50px;
     padding-top: 11px;
     margin-left: -35px;
+    user-select: none;
 }
 
 header a {
@@ -74,13 +79,13 @@ nav a:hover {
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-duration: 0.5s;
     transition-delay: 0.3ms;
-    background-color: rgba(211, 211, 211, 0.219);
+    background-color: rgb(174, 0, 255);
 }
 
 h1 {
     padding-top: 40px;
     padding-left: 50px;
-    color: rgb(29, 224, 11);
+    color: rgb(203, 148, 255);
     font-family: var(--minecraft-font);
     font-weight: lighter;
     font-size: 3.5em;
@@ -90,7 +95,7 @@ p#impact {
     font-family: var(--minecraft-font);
     font-weight: bold;
     padding-left: 50px;
-    color: rgb(194, 126, 0);
+    color: rgb(203, 148, 255);
     font-size: 6em;
 }
 
